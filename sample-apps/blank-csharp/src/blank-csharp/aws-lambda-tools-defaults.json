@@ -5,14 +5,16 @@
 
     "dotnet lambda help",
 
-    "All the command line options for the Lambda command can be specified in this file."
+    "All the command line options for the Lambda command can be specified in this file.",
+
+    "https://docs.aws.amazon.com/code-samples/latest/catalog/dotnetv3-Lambda-CreateS3BucktLambdaExample-CreateS3BucketLambdaExample-aws-lambda-tools-defaults.json.html"
   ],
 
   "profile":"default",
-  "region" : "us-east-2",
+  "region" : "us-east-1",
   "configuration" : "Release",
-  "framework" : "netcoreapp3.1",
-  "function-runtime":"dotnetcore3.1",
+  "framework" : "net6.0",
+  "function-runtime":"dotnet6",
   "function-memory-size" : 512,
   "function-timeout" : 30,
   "function-handler" : "blank-csharp::blankCsharp.Function::FunctionHandler"

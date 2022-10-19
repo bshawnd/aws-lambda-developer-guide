@@ -27,7 +27,7 @@ namespace blankCsharp.Tests
         {
             Environment.SetEnvironmentVariable(AWSXRayRecorder.LambdaTaskRootKey, "test");
             Environment.SetEnvironmentVariable(AWSXRayRecorder.LambdaTraceHeaderKey, _traceHeaderValue);
-            Environment.SetEnvironmentVariable("AWS_REGION", "us-east-2");
+            Environment.SetEnvironmentVariable("AWS_REGION", "us-east-1");
         }
 
         public void Dispose()
