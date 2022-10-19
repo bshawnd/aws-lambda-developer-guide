@@ -29,5 +29,10 @@ Resources:
           DD_API_KEY: <API_KEY>
           DD_VERSION: 0.0.1
           DD_ENV: dev
+          DD_SERVICE: net6-test
           DD_APM_ENABLED: true
-          DD_LOG_LEVEL: off
+          DD_TRACE_ENABLED: true
+          DD_LOGS_INJECTION: false
+          DD_SERVERLESS_LOGS_ENABLED: false
+          DD_CAPTURE_LAMBDA_PAYLOAD: true
+
