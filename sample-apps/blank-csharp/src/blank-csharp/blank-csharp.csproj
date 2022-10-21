@@ -12,6 +12,8 @@
     <PackageReference Include="AWSSDK.Lambda" Version="3.7.14.30" />
     <PackageReference Include="AWSXRayRecorder.Core" Version="2.11.1" />
     <PackageReference Include="AWSXRayRecorder.Handlers.AwsSdk" Version="2.9.1" />
+    <PackageReference Include="Datadog.Trace" Version="2.17.0" />
+    <PackageReference Include="Datadog.Trace.Annotations" Version="1.0.0" />
     <PackageReference Include="Newtonsoft.JSON" Version="13.0.1" />
   </ItemGroup>
 </Project>
