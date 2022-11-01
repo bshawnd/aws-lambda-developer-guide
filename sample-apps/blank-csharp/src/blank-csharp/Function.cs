@@ -11,7 +11,7 @@ using Amazon.Lambda.SQSEvents;
 // using Amazon.XRay.Recorder.Core;
 // using Amazon.XRay.Recorder.Handlers.AwsSdk;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Serialization;
+// using Newtonsoft.Json.Serialization;
 using Datadog.Trace;
 using Datadog.Trace.Configuration;
 using Datadog.Trace.Annotations;
